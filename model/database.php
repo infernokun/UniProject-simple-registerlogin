@@ -1,7 +1,7 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=aum_db';
-    $username = 'aum_admin';
-    $password = 'aum_password';
+    $dsn = 'mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_1a36e5c5f5ecb77';
+    $username = 'b14ae626e4c908';
+    $password = '853192af';
 
     try {
         $db = new PDO($dsn, $username, $password);
